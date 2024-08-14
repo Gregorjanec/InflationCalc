@@ -9,7 +9,7 @@ function calculateInflation() {
         return;
     }
 
-    // Formula to calculate future value considering inflation
+    // Formula to calculate depreciated value with inflation
     let futureValue = amount / Math.pow((1 + inflationRate / 100), years);
 
     document.getElementById('result').innerText = 
